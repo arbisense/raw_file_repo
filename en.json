@@ -1,0 +1,71 @@
+{
+  "photoCategories": {
+    "cat1": {
+      "title": "Meal",
+      "subcats": {
+        "0": "Breakfast",
+        "1": "Lunch",
+        "2": "Dinner",
+        "3": "Snack",
+        "4": "Drink"
+      }
+    },
+    "cat2": {
+      "title": "Food advertisements",
+      "subcats": {
+        "0": "Online ads",
+        "1": "Outdoor ads"
+      }
+    }
+  },
+
+  "mealQuestions": {
+    "1": {
+      "question": "Is homemade",
+      "option1": "Home prepared",
+      "option2": "Purchased from store"
+    },
+    "2": "Contains fruit / vegetables",
+    "3": "Contains red or processed meat",
+    "4": "Contains added sugar",
+    "5": "Is sweet tasting",
+    "6": "Is salty snack",
+    "7": {
+        "question": "Is healthy",
+        "option1": "Healthy",
+        "option2": "Unhealthy",
+        "option3": "Cannot decide"
+    }
+  },
+  "drinkQuestions": {
+    "1": "Water",
+    "2": "Coffee / Tea",
+    "3": "Milk / Plant-based milk",
+    "4": "Natural juice / Smoothie / Plant-based drink",
+    "5": "Sugar-sweetened (e.g. soda or sweetened juice)",
+    "6": "Artificially-sweetened (e.g. diet soda)",
+    "7": "Energy drink"
+  },
+  "adQuestions": {
+    "1": {
+      "question": "Type of advertised product",
+      "option1": "Food",
+      "option2": "Drink",
+      "option3": "Both"
+    },
+    "2": {
+      "question": "Is it",
+        "option1": "Ready to eat",
+        "option2": "Needs cooking"
+    },
+    "3": {
+      "question": "Is it",
+      "option1": "Healthy",
+      "option2": "Unhealthy",
+      "option3": "Cannot decide"
+    },
+    "4": "Is it a special offer (discount, 2 for 1, etc)?",
+    "5": "Is the brand logo visible?",
+    "6": "If yes, is it a well-known brand logo?"
+  }
+}

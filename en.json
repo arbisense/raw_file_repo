@@ -1,7 +1,7 @@
 {
   "photoCategories": {
     "cat1": {
-      "title": "Meal",
+      "title": "Cat",
       "subcats": {
         "0": "Breakfast",
         "1": "Lunch",

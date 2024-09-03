@@ -1,0 +1,167 @@
+---
+mealQuestions: &mealQuestions
+    - id: 1
+      question: mealQuestions.1.question
+      type: radio
+      options: [
+        mealQuestions.1.option1,
+        mealQuestions.1.option2
+      ]
+      required: false
+    - id: 0
+      question: ""
+      type: separator
+      options: []
+      required: false
+    - id: 2
+      question: mealQuestions.2
+      type: checkbox
+      options: []
+      required: false
+    - id: 3
+      question: mealQuestions.3
+      type: checkbox
+      options: []
+      required: false
+    - id: 4
+      question: mealQuestions.4
+      type: checkbox
+      required: false
+      options: []
+    - id: 5
+      question: mealQuestions.5
+      type: checkbox
+      options: []
+      required: false
+    - id: 6
+      question: mealQuestions.6
+      type: checkbox
+      options: []
+      required: false
+    - id: 0
+      question: ""
+      type: separator
+      options: []
+      required: false
+    - id: 7
+      question: mealQuestions.7.question
+      type: radio
+      options: [
+         mealQuestions.7.option1,
+         mealQuestions.7.option2,
+         mealQuestions.7.option3,
+      ]
+      required: false
+
+drinkQuestions: &drinkQuestions
+  - id: 1
+    question: drinkQuestions.1
+    type: checkbox
+    required: false
+  - id: 2
+    question: drinkQuestions.2
+    type: checkbox
+    options: []
+    required: false
+  - id: 3
+    question: drinkQuestions.3
+    type: checkbox
+    options: []
+    required: false
+  - id: 4
+    question: drinkQuestions.4
+    type: checkbox
+    required: false
+    options: []
+  - id: 5
+    question: drinkQuestions.5
+    type: checkbox
+    options: []
+    required: false
+  - id: 6
+    question: drinkQuestions.6
+    type: checkbox
+    options: []
+    required: false
+  - id: 7
+    question: drinkQuestions.7
+    type: checkbox
+    options: []
+    required: false
+
+adQuestions: &adQuestions
+    - id: 1
+      question: adQuestions.1.question
+      type: radio
+      options: [
+          adQuestions.1.option1,
+          adQuestions.1.option2,
+          adQuestions.1.option3,
+      ]
+      required: false
+    - id: 2
+      question: adQuestions.2.question
+      type: radio
+      options: [
+          adQuestions.2.option1,
+          adQuestions.2.option2,
+      ]
+      required: false
+    - id: 3
+      question: adQuestions.3.question
+      type: radio
+      options: [
+        adQuestions.3.option1,
+        adQuestions.3.option2,
+        adQuestions.3.option3,
+      ]
+      required: false
+    - id: 4
+      question: adQuestions.4
+      type: checkbox
+      required: false
+      options: []
+    - id: 5
+      question: adQuestions.5
+      type: checkbox
+      options: []
+      required: false
+    - id: 6
+      question: adQuestions.6
+      type: checkbox
+      options: []
+      required: false
+
+categories:
+    - categoryId: 1
+      name: photoCategories.cat1.title
+      geoTag: True
+      subcategories:
+          - categoryId: 1
+            subcategoryId: 0
+            name: photoCategories.cat1.subcats.0
+            annotationQuestions: *mealQuestions
+
+          - categoryId: 1
+            subcategoryId: 1
+            name: photoCategories.cat1.subcats.1
+            annotationQuestions: *mealQuestions
+
+          - categoryId: 1
+            subcategoryId: 2
+            name: photoCategories.cat1.subcats.2
+            annotationQuestions: *mealQuestions
+
+    - categoryId: 2
+      name: photoCategories.cat2.title
+      subcategories:
+          - categoryId: 2
+            subcategoryId: 0
+            name: photoCategories.cat2.subcats.0
+            imageSource: gallery
+            annotationQuestions: []
+
+          - categoryId: 2
+            subcategoryId: 1
+            name: photoCategories.cat2.subcats.1
+            annotationQuestions: *adQuestions

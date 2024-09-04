@@ -3,11 +3,11 @@
     "cat1": {
       "title": "Animal",
       "subcats": {
-        "0": "Cat",
-        "1": "Dog",
-        "2": "Parrot",
+        "0": "Crocodile",
+        "1": "Dragon",
+        "2": "Shark",
         "3": "Snake",
-        "4": "Lizard"
+        "4": "Dragon"
       }
     },
     "cat2": {

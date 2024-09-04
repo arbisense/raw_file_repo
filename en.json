@@ -1,17 +1,17 @@
 {
   "photoCategories": {
     "cat1": {
-      "title": "Cat",
+      "title": "Pet",
       "subcats": {
-        "0": "Breakfast",
-        "1": "Lunch",
-        "2": "Dinner",
-        "3": "Snack",
-        "4": "Drink"
+        "0": "Cat",
+        "1": "Dog",
+        "2": "Parrot",
+        "3": "Snake",
+        "4": "Lizard"
       }
     },
     "cat2": {
-      "title": "Food advertisements",
+      "title": "Pet food",
       "subcats": {
         "0": "Online ads",
         "1": "Outdoor ads"

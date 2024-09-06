@@ -1,4 +1,5 @@
-[
+{
+  [
   {
   "__type": "RPNavigableOrderedTask",
   "identifier": "DAY",
@@ -177,3 +178,4 @@
   "step_navigation_rules": {}
 }
 ]
+}

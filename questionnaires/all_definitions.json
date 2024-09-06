@@ -1,0 +1,179 @@
+[
+  {
+  "__type": "RPNavigableOrderedTask",
+  "identifier": "DAY",
+  "close_after_finished": false,
+  "steps": [
+    {
+      "__type": "RPFormStep",
+      "identifier": "DAY.1-4",
+      "title": "DAY.1-4",
+      "optional": false,
+      "auto_focus": true,
+      "answer_format": {
+        "__type": "RPFormAnswerFormat",
+        "question_type": "Form"
+      },
+      "questions": [
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "DAY.2",
+          "title": "DAY.2",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "DAY.3",
+          "title": "DAY.3",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "DAY.4",
+          "title": "DAY.4",
+          "optional": false,
+          "answer_format": {
+            "__type": "RPChoiceAnswerFormat",
+            "question_type": "SingleChoice",
+            "choices": [
+              {
+                "__type": "RPChoice",
+                "text": "DAY.4.A1",
+                "value": 1,
+                "is_free_text": false
+              },
+              {
+                "__type": "RPChoice",
+                "text": "DAY.4.A2",
+                "value": 2,
+                "is_free_text": false
+              },
+              {
+                "__type": "RPChoice",
+                "text": "DAY.4.A3",
+                "value": 3,
+                "is_free_text": false
+              },
+              {
+                "__type": "RPChoice",
+                "text": "DAY.4.A4",
+                "value": 4,
+                "is_free_text": false
+              },
+              {
+                "__type": "RPChoice",
+                "text": "DAY.4.A5",
+                "value": 5,
+                "is_free_text": false
+              }
+            ],
+            "answer_style": "SingleChoice"
+          }
+        }
+      ]
+    },
+    {
+      "__type": "RPCompletionStep",
+      "identifier": "DAY.END",
+      "title": "DAY.END",
+      "text": "DAY.END2",
+      "optional": false
+    }
+  ],
+  "step_navigation_rules": {}
+},
+  {
+  "__type": "RPNavigableOrderedTask",
+  "identifier": "ONBOARDING",
+  "close_after_finished": false,
+  "steps": [
+    {
+      "__type": "RPFormStep",
+      "identifier": "OB.1-4",
+      "title": "OB.1-4",
+      "optional": false,
+      "auto_focus": true,
+      "answer_format": {
+        "__type": "RPFormAnswerFormat",
+        "question_type": "Form"
+      },
+      "questions": [
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.1",
+          "title": "OB.1",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.2",
+          "title": "OB.2",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.3",
+          "title": "How active do you think you usually are compared to others of your age?",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.4",
+          "title": "How does your screen time compare to others of your age?",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        }
+      ]
+    },
+    {
+      "__type": "RPCompletionStep",
+      "identifier": "OB-END",
+      "title": "Finished",
+      "text": "Finished",
+      "optional": false
+    }
+  ],
+  "step_navigation_rules": {}
+}
+]

@@ -1,6 +1,6 @@
 {"content":
   [
-  {"day": {
+  {"content": {
   "__type": "RPNavigableOrderedTask",
   "identifier": "DAY",
   "close_after_finished": false,
@@ -97,7 +97,7 @@
   ],
   "step_navigation_rules": {}
 }},
-  {"onboarding": {
+  {"content": {
   "__type": "RPNavigableOrderedTask",
   "identifier": "ONBOARDING",
   "close_after_finished": false,

@@ -1,0 +1,82 @@
+{
+  "__type": "RPNavigableOrderedTask",
+  "identifier": "OB",
+  "close_after_finished": false,
+  "steps": [
+    {
+      "__type": "RPFormStep",
+      "identifier": "OB.1-4",
+      "title": "OB.1-4",
+      "optional": false,
+      "auto_focus": true,
+      "answer_format": {
+        "__type": "RPFormAnswerFormat",
+        "question_type": "Form"
+      },
+      "questions": [
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.1",
+          "title": "OB.1",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.2",
+          "title": "OB.2",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.3",
+          "title": "How active do you think you usually are compared to others of your age?",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        },
+        {
+          "__type": "RPQuestionStep",
+          "identifier": "OB.4",
+          "title": "How does your screen time compare to others of your age?",
+          "optional": true,
+          "answer_format": {
+            "__type": "RPSliderAnswerFormat",
+            "question_type": "Scale",
+            "min_value": 1,
+            "max_value": 5,
+            "divisions": 4
+          }
+        }
+      ]
+    },
+
+    {
+      "__type": "RPCompletionStep",
+      "identifier": "OB-END",
+      "title": "Finished",
+      "text": "Finished",
+      "optional": false
+    }
+  ],
+  "step_navigation_rules": {
+  }
+}

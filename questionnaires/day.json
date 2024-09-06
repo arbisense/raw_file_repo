@@ -16,38 +16,6 @@
       "questions": [
         {
           "__type": "RPQuestionStep",
-          "identifier": "DAY.1",
-          "title": "DAY.1",
-          "optional": false,
-          "answer_format": {
-            "__type": "RPChoiceAnswerFormat",
-            "question_type": "SingleChoice",
-            "choices": [
-              {
-                "__type": "RPChoice",
-                "text": "0-5000",
-                "value": 1,
-                "is_free_text": false
-              },
-              {
-                "__type": "RPChoice",
-                "text": "5001-10000",
-                "value": 2,
-                "is_free_text": false
-              },
-              {
-                "__type": "RPChoice",
-                "text": "More than 10000",
-                "value": 3,
-                "is_free_text": false
-              }
-            ],
-            "answer_style": "SingleChoice"
-          }
-        },
-
-        {
-          "__type": "RPQuestionStep",
           "identifier": "DAY.2",
           "title": "DAY.2",
           "optional": true,

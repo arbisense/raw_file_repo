@@ -1,0 +1,34 @@
+{
+    "notifications": [
+      {
+        "id": 2,
+        "title": "questionnaires.day.notificationTitle",
+        "message": "questionnaires.day.notificationSubtitle",
+        "body": "questionnaires.day.notificationSubtitle",
+        "time": {
+          "hour": 15,
+          "minute": 30
+        },
+        "repetition": "daily",
+        "payload": {
+          "actionType": "openQuestionnaire",
+          "arguments": {"questionnaireId":  "day"}
+        }
+      },
+      {
+        "id": 3,
+        "title": "questionnaires.reminder.notificationTitle",
+        "message": "questionnaires.reminder.notificationSubtitle",
+        "body": "questionnaires.reminder.notificationSubtitle",
+        "time": {
+          "hour": 15,
+          "minute": 40
+        },
+        "repetition": "daily",
+        "payload": {
+          "actionType": "openPhotoFlow",
+          "arguments": {"categoryId": 2, "subCategoryId": 0}
+        }
+      }
+    ]
+}

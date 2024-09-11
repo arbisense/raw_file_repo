@@ -7,7 +7,7 @@
         "body": "questionnaires.day.notificationSubtitle",
         "time": {
           "hour": 15,
-          "minute": 24
+          "minute": 33
         },
         "repetition": "daily",
         "payload": {
@@ -22,7 +22,7 @@
         "body": "questionnaires.reminder.notificationSubtitle",
         "time": {
           "hour": 15,
-          "minute": 26
+          "minute": 36
         },
         "repetition": "daily",
         "payload": {

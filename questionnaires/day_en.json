@@ -1,0 +1,14 @@
+{
+  "DAY.1-4": "Tell us about your day",
+  "DAY.1": "How many steps did you do today?",
+  "DAY.2": "How was your day today? \n 1=Very bad - 5=Very good",
+  "DAY.3": "How was your sleep last night? \n 1=Very bad - 5=Very good",
+  "DAY.4": "How much time did you spend in front of a screen today?",
+  "DAY.4.A1": "Less than 1 hour",
+  "DAY.4.A2": "1-2 hours",
+  "DAY.4.A3": "2-3 hours",
+  "DAY.4.A4": "3-4 hours",
+  "DAY.4.A5": "More than 4 hours",
+  "DAY.END": "Finished!",
+  "DAY.END2": "Thanks for letting us know"
+}
